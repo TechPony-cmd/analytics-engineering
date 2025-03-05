@@ -7,34 +7,45 @@ This project focuses on building an end-to-end analytics solution for healthcare
 ## Models Overview
 
 The models are categorized under two main themes: 
-	1. Claims Analysis e.g. How are providers getting reimbursed, and is there any variation in payment rates across different provider types or regions?
 
-	2. Fraud Detection e.g. Which healthcare providers are potentially involved in suspicious or fraudulent activities based on claim patterns, payment discrepancies, and unusual trends? Are there any irregularities in the claims approval process that may suggest fraud?
+1. Claims Analysis e.g. How are providers getting reimbursed, and is there any variation in payment rates across different provider types or regions?
+
+2. Fraud Detection e.g. Which healthcare providers are potentially involved in suspicious or fraudulent activities based on claim patterns, payment discrepancies, and unusual trends? Are there any irregularities in the claims approval process that may suggest fraud?
 
 The insights generated from these models can be used by healthcare organizations to improve decision-making, optimize resources, and detect anomalies.
 
 ## Project Structure
 
-This project is divided into several sections based on the stages of the data pipeline:
-	•	Staging Models: Raw data cleaning and initial transformation.
-	•	Intermediate Models: Data transformations that prepare the data for analysis.
-	•	Mart Models: Final models that provide actionable insights for end-users.
-	
-├── dags/               			# Airflow DAGs for pipeline orchestration  
-├── healthcare_claims_project/      # DBT project with models, tests, and macros  
-│   ├── models/          			# Staging and marts models & testing   
-│   ├── seeds/           			# Mock seed data for claims  and flagged providers
-├── requirements.txt     			# Dependencies  
-├── dbt_project.yml     			 
-├── packages.yml     				# Package Dependencies  
-├── profiles.yml    				# database connection  
-└── README.md            			# Project documentation 
-└── seed_data_info.yml            	# column: description on seed data
+    .
+    ├── build                   # Compiled files (alternatively `dist`)
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── test                    # Automated tests (alternatively `spec` or `tests`)
+    ├── tools                   # Tools and utilities
+    ├── LICENSE
+    └── README.md
 
-Tech Stack
-	•	DBT (Data modeling, transformation & testing)
-	•	Airflow (Orchestration & scheduling, monitoring failure alerts)
-	•	PostgreSQL (Data warehouse)
-	•	SQL (Data modeling, performance tuning)
+	├── dags/               			# Airflow DAGs for pipeline orchestration  
+	├── healthcare_claims_project/      # DBT project with models, tests, and macros  
+	│   ├── models/          			# Staging and marts models & testing   
+	│   ├── seeds/           			# Mock seed data for claims  and flagged providers
+	├── requirements.txt     			# Dependencies  
+	├── dbt_project.yml     			 
+	├── packages.yml     				# Package Dependencies  
+	├── profiles.yml    				# database connection  
+	└── README.md            			# Project documentation 
+	└── seed_data_info.yml            	# column: description on seed data
+
+This project is divided into several sections based on the stages of the data pipeline:
+* Staging Models: Raw data cleaning and initial transformation.
+* Intermediate Models: Data transformations that prepare the data for analysis.
+* Mart Models: Final models that provide actionable insights for end-users.
+
+### Tech Stack
+
+* DBT (Data modeling, transformation & testing)
+* Airflow (Orchestration & scheduling, monitoring failure alerts)
+* PostgreSQL (Data warehouse)
+* SQL (Data modeling, performance tuning)
 
 
