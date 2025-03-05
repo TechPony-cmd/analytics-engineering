@@ -13,16 +13,13 @@ This repository contains projects, scripts, and workflows related to analytics e
 ## 📂 Repository Structure
 ```
 ├── healthcare_claims_project/        # dbt & airflow project
-├── README.md        # This file
+├── README.md                         # This file
 ```
 
 ## 🚀 Projects
 ### 1️⃣ **dbt modeling using healthcare claims data (healthcare_claims_project)**
 - Built DBT models to help with claims analysis and fraud detection
-
-### 2️⃣ **Automated Data Quality Auditing with python unit testing and sql**
-- Built python unittests and sql based checks to detect anomalies during ETL processing and when data is in database
-
+  
 ---
 💡 **Let's turn data into insights!**
 
