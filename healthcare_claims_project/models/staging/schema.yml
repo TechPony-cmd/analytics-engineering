@@ -1,0 +1,45 @@
+# version: 2
+
+models:
+  - name: int_claims
+    description: "Staging model for healthcare claims data"
+    columns:
+      - name: claim_id
+        tests:
+          - unique
+      - name: claim_date
+        tests:
+          - not_null
+      - name: claim_status
+        tests:
+          - accepted_values: 
+              values: ['Pending', 'Rejected', 'Approved']
+      - name: payment_status
+        tests:
+          - accepted_values: 
+              values: ['Under Review', 'Denied', 'Paid']
+      - name: insurance_type
+        tests:
+          - not_null         
+      - name: provider_id
+        tests:
+          - not_null                
+      - name: diagnosis_code
+        tests:
+          - not_null
+      - name: procedure_code
+        tests:
+          - not_null
+      - name: last_updated_date
+        tests:
+          - not_null 
+      - name: total_claim_amount
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0
+      - name: insurance_paid_amount
+        tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              min_value: 0

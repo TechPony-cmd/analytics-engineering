@@ -1,0 +1,28 @@
+healthcare_claims:
+  claim_id: Unique identifier for each claim
+  claim_date: Date claim was submitted
+  claim_status: status of claim (Approved, Denied, Pending)
+  patient_id: Unique identifier assigned to the patient receiving medical services
+  patient_age: age of patient
+  patient_gender: gender of patient
+  patient_zipcode: ZIP code of patient
+  provider_id: Unique identifier for the healthcare provider or facility
+  provider_name: Name of the healthcare provider or facility
+  provider_specialty:	The medical specialty of the provider (e.g.,General Surgery, Dermatology)
+  provider_zipcode:	ZIP code of the provider’s location, useful for geographic analysis
+  diagnosis_code: ICD-10 code representing the primary diagnosis for the claim
+  diagnosis_description: Description of the diagnosis code (e.g., Type 2 Diabetes Mellitus)
+  procedure_code: CPT (Current Procedural Terminology) code representing the medical procedure performed
+  procedure_description: Description of the procedure performed (e.g., MRI Brain Scan)
+  total_claim_amount:	The total amount billed by the provider for the service
+  insurance_paid_amount: The portion of the total claim amount covered by the insurance company
+  patient_responsibility:	The remaining balance the patient is responsible for (copay, deductible, coinsurance)
+  insurance_type: The type of insurance coverage (HMO, PPO, Medicaid, Medicare, Employer-sponsored)
+  payment_status: Status of the claim payment: Paid, Denied, Pending
+  admission_date: Date the patient was admitted for treatment (relevant for inpatient claims)
+  discharge_date: Date the patient was discharged from the facility (if applicable)
+  
+flagged_providers:
+  provider_id: Unique identifier for the healthcare provider or facility
+  provider_name: Name of the healthcare provider or facility
+  fraud_reason: reasons behind provider being flagged

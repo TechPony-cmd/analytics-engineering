@@ -1,0 +1,4 @@
+provider_id,provider_name,fraud_reason
+B9D3BE,MedElite Health Group,High Rejection Rate (35% claims rejected)
+F7453B,Bright Future Clinic,Excessive Large Claims (> $50K per claim)
+BC4E7D,Stevens-Brown,Unusual Billing Patterns (Same claim repeated)

@@ -1,0 +1,21 @@
+claim_id,claim_date,patient_id,patient_age,patient_gender,patient_zipcode,provider_id,provider_name,provider_specialty,provider_zipcode,diagnosis_code,diagnosis_description,procedure_code,procedure_description,total_claim_amount,insurance_paid_amount,patient_responsibility,claim_status,insurance_type,payment_status,admission_date,discharge_date
+49504402,2025-02-15,C9C9B503,57,F,58943,B9D3BC,Ball and Sons,Cardiology,32437,J45,Asthma,99213,Office Visit,1386.63,696.85,689.78,Pending,Private,Pending,2025-02-12,2025-02-12
+192B1B75,2025-02-10,CD02D502,80,F,95065,AA1570,Patterson-Ball,Dermatology,68452,J45,Asthma,99213,Office Visit,4419.26,3199.19,1220.07,Rejected,Private,Paid,,
+ADCFF6A0,2025-02-04,BD36409D,68,F,13229,38BC4F,Schultz Ltd,Orthopedics,61291,R05,Cough,99213,Office Visit,1760.65,1699.68,60.97,Approved,Self-Pay,Denied,,
+C7F5EDDD,2025-02-23,EB04BAD6,34,F,11357,F6453B,"Fisher, Rodriguez and Johnson",Pediatrics,43293,E11,Diabetes,73562,Knee X-ray,4397.79,4347.65,50.14,Pending,Medicaid,Paid,,
+564761C9,2025-02-18,3DBB8294,35,M,51552,8414AC,"Mueller, Garcia and Johnson",Orthopedics,01046,R05,Cough,99396,Adult Wellness Exam,2270.74,2229.73,41.01,Approved,Self-Pay,Paid,,
+536CA22C,2025-01-22,D53E28EA,85,F,74129,6DD175,Yates and Sons,Pediatrics,87081,E11,Diabetes,99396,Adult Wellness Exam,3213.44,2659.97,553.47,Pending,Medicaid,Pending,,
+6213C726,2025-03-03,120A88AA,60,Other,23580,8764BB,Townsend Ltd,Dermatology,88393,I10,Hypertension,99213,Office Visit,1064.71,321.48,743.23,Pending,Medicaid,Denied,,
+CCE24C7A,2025-01-18,C8388C7B,35,F,70032,689777,"Gutierrez, Mills and Williams",Pediatrics,59304,J45,Asthma,73562,Knee X-ray,2877.63,2448.57,429.06,Approved,Private,Denied,,
+2673261A,2025-01-18,40A7EF0A,36,M,05426,6B9D50,Parker-Graham,Pediatrics,36249,E11,Diabetes,83036,HbA1c Test,1716.99,1601.69,115.3,Pending,Self-Pay,Pending,,
+E45D79FB,2025-02-06,5CC79B9B,76,F,63939,D48490,"Mueller, Garcia and Walton",Cardiology,05824,R05,Cough,73562,Knee X-ray,1423.3,0.0,1423.3,Pending,Medicaid,Paid,,
+EB07CBBE,2025-01-21,813A6CBB,49,F,28232,FF2F8C,"Page, Carpenter and Lewis",Cardiology,25063,J45,Asthma,99213,Office Visit,3001.19,2228.52,772.67,Rejected,Medicaid,Paid,,
+A3A765C8,2025-03-02,0470329D,68,F,70340,61D712,Carlson-Lewis,General Practice,42845,R05,Cough,71010,Chest X-ray,307.77,280.11,27.66,Pending,Private,Paid,,
+19ACA2E5,2025-02-27,4BDED503,64,Other,59818,3920BA,Daniels-Wallace,Cardiology,11244,E11,Diabetes,99396,Adult Wellness Exam,2948.72,2278.9,669.82,Rejected,Private,Paid,,
+F4F201F8,2025-01-23,C0B54587,68,Other,46743,12D795,Matthews Group,Cardiology,89512,M54,Back Pain,73562,Knee X-ray,4062.34,2466.09,1596.25,Pending,Medicare,Pending,,
+25239C57,2025-02-14,467FE2A8,47,M,68396,BEFE70,Johnson Group,General Practice,90837,I10,Hypertension,73562,Knee X-ray,134.56,89.17,45.39,Pending,Self-Pay,Paid,,
+57DDF2E0,2024-12-24,D50FF092,49,M,67664,BEEEC8,Doyle LLC,Orthopedics,38630,J45,Asthma,99213,Office Visit,4586.33,0.0,4586.33,Rejected,Medicaid,Paid,,
+D1878026,2025-02-26,680CEE8A,68,F,35423,30BF4A,"Mccormick, Edwards and Russell",General Practice,92887,I10,Hypertension,83036,HbA1c Test,2766.58,1501.93,1264.65,Rejected,Medicare,Denied,2025-01-14,2025-02-02
+918DFDBB,2025-01-15,139402A8,27,Other,82272,57CA47,May-Whitehead,Dermatology,20121,M54,Back Pain,73562,Knee X-ray,4345.2,2295.53,2049.67,Approved,Medicare,Denied,,
+9FFF33F5,2025-01-28,32F6A2EA,71,M,14032,8FCFD0,Bell Inc,Orthopedics,57656,R05,Cough,71010,Chest X-ray,4772.84,0.0,4772.84,Pending,Private,Denied,2025-01-13,2025-01-16
+4954DFAC,2025-01-24,8B99AF97,43,F,26666,BC4E7D,Stevens-Brown,Cardiology,55133,J45,Asthma,71010,Chest X-ray,4915.58,2566.86,2348.72,Approved,Medicaid,Pending,,

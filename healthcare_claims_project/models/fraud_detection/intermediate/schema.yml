@@ -1,0 +1,14 @@
+# version: 2
+
+models:
+  - name: int_duplicate_claims
+    columns:
+      - name: claim_id
+        tests:
+          - unique
+          - not_null
+  - name: int_suspicious_providers
+    columns:
+      - name: provider_id
+        tests:
+          - unique

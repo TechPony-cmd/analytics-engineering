@@ -1,0 +1,12 @@
+healthcare_claims_profile:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost  # or the host where your PostgreSQL is running
+      user: postgres  # your PostgreSQL username
+      password: testing  # your PostgreSQL password
+      database: postgres  # this is the database name you're connecting to
+      schema: public  # schema within your database (default is 'public')
+      port: 5432  # default PostgreSQL port
+      threads: 1

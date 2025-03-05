@@ -1,0 +1,40 @@
+name: healthcare_claims_project
+version: '1.0'
+
+profile: healthcare_claims_profile
+
+models: 
+  healthcare_claims_project:
+    intermediate:
+      +schema: intermediate
+      +materialized: table
+    marts:
+      +schema: marts
+      +materialized: table
+      
+seeds:
+  healthcare_claims_project:
+    +schema: reference
+    +column_types: 
+      claim_id: text	
+      claim_date: date
+      patient_id: text	
+      patient_age: int	
+      patient_gender: text	
+      patient_zipcode: int	
+      provider_id: text	
+      provider_name: text	
+      provider_specialty: text	
+      provider_zipcode: int	
+      diagnosis_code: text	
+      diagnosis_description: text	
+      procedure_code: text	
+      procedure_description: text	
+      total_claim_amount: float	
+      insurance_paid_amount: float	
+      patient_responsibility: float	
+      claim_status: text	
+      insurance_type: text	
+      payment_status: text	
+      admission_date: date	
+      discharge_date: date
