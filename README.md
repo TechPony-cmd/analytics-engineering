@@ -20,7 +20,7 @@ This repository contains projects, scripts, and workflows related to analytics e
 ```
 
 ## 🚀 Projects
-### 1️⃣ **dbt modeling using healthcare claims data**
+### 1️⃣ **health_care_claims_project: dbt modeling using healthcare claims data**
 - Built DBT models to help with claims analysis and fraud detection
 
 ### 2️⃣ **Automated Data Quality Auditing with python unit testing and sql**
