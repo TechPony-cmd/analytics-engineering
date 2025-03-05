@@ -1,6 +1,6 @@
 # Analytics Engineering Repository
 
-Welcome to my Analytics Engineering repository! This space is dedicated to showcasing my work in data engineering, data modeling, and analytics workflows.
+Welcome to my Analytics Engineering repository! This space is dedicated to showcasing my work in data modeling and analytics workflows.
 
 ## 📌 About This Repository
 This repository contains projects, scripts, and workflows related to analytics engineering. It highlights my experience in building scalable data pipelines, transforming raw data into meaningful insights and optimizing data governance frameworks.
