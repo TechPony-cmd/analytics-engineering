@@ -1,3 +1,3 @@
 # Projects
 
-  |- HEALTHCARE CLAIMS PROJECT
+  1. Healthcare Claims Project
