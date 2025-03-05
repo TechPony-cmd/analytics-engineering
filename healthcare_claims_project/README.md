@@ -6,6 +6,10 @@ This project focuses on building an end-to-end analytics solution for healthcare
 
 ## Models Overview
 
+* Staging Models: Raw data cleaning and initial transformation.
+* Intermediate Models: Data transformations that prepare the data for analysis.
+* Mart Models: Final models that provide actionable insights for end-users.
+
 The models are categorized under two main themes: 
 
 1. Claims Analysis e.g. How are providers getting reimbursed, and is there any variation in payment rates across different provider types or regions?
@@ -15,15 +19,6 @@ The models are categorized under two main themes:
 The insights generated from these models can be used by healthcare organizations to improve decision-making, optimize resources, and detect anomalies.
 
 ## Project Structure
-
-    .
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
-    ├── test                    # Automated tests (alternatively `spec` or `tests`)
-    ├── tools                   # Tools and utilities
-    ├── LICENSE
-    └── README.md
 
 	├── dags/               			# Airflow DAGs for pipeline orchestration  
 	├── healthcare_claims_project/      # DBT project with models, tests, and macros  
@@ -35,11 +30,6 @@ The insights generated from these models can be used by healthcare organizations
 	├── profiles.yml    				# database connection  
 	└── README.md            			# Project documentation 
 	└── seed_data_info.yml            	# column: description on seed data
-
-This project is divided into several sections based on the stages of the data pipeline:
-* Staging Models: Raw data cleaning and initial transformation.
-* Intermediate Models: Data transformations that prepare the data for analysis.
-* Mart Models: Final models that provide actionable insights for end-users.
 
 ### Tech Stack
 
