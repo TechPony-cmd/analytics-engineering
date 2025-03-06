@@ -13,7 +13,8 @@ This repository contains projects, scripts, and workflows related to analytics e
 ## 📂 Repository Structure
 ```
 ├── healthcare_claims_project/        # dbt & airflow project
-├── README.md        # This file
+├── data_validation_project/             # python & SQL project
+├── README.md                         # This file
 ```
 
 ## 🚀 Projects

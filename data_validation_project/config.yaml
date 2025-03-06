@@ -1,0 +1,32 @@
+rename_columns: 
+  PatientId: patient_id
+  AppointmentID: appointment_id      
+  Gender: gender
+  ScheduledDay: scheduled_day
+  AppointmentDay: appointment_day
+  Age: age
+  Neighbourhood: neighbourhood
+  Scholarship: scholarship
+  Hipertension: hypertension
+  Diabetes: diabetes
+  Alcoholism: alcoholism
+  Handcap: handicap
+  SMS_received: sms_received
+  Showed_up: showed_up
+  Date.diff: days_diff
+dtypes:
+  patient_id: int64
+  appointment_id: int64
+  gender: object
+  age: int64
+  neighbourhood: object
+  scholarship: bool
+  hypertension: bool
+  diabetes: bool
+  alcoholism: bool
+  handicap: bool
+  sms_received: bool
+  showed_up: bool
+  days_diff: int64
+
+

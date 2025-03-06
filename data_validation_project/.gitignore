@@ -1,0 +1,11 @@
+# Python
+*.pyc
+__pycache__/
+
+# dbt
+*.db
+target/
+dbt_modules/
+
+# PostgreSQL
+*.log
