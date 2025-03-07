@@ -18,7 +18,10 @@ This repository contains projects, scripts, and workflows related to analytics e
 ├── README.md                     # This file
 ```
 
-## 🚀 Projects
+## 🚀 Projects 
+```
+Please note that each project contains a README.md that provides very detailed description of the project
+```
 ### 1️⃣ **dbt modeling using healthcare claims data (healthcare_claims_project)**
 - DBT models orchestrated using Airflow DAGS, to help with claims analysis and fraud detection
 

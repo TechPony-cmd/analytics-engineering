@@ -77,7 +77,7 @@ healthcare_claims data:
 	admission_date: Date the patient was admitted for treatment (relevant for inpatient claims)
 	discharge_date: Date the patient was discharged from the facility (if applicable)
 
-	flagged_providers:
+flagged_providers:
 		provider_id: Unique identifier for the healthcare provider or facility
 		provider_name: Name of the healthcare provider or facility
 		fraud_reason: reasons behind provider being flagged
