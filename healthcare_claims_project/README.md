@@ -10,12 +10,14 @@ This project focuses on building an end-to-end analytics solution for healthcare
 * Intermediate Models: Data transformations that prepare the data for analysis.
 * Mart Models: Final models that provide actionable insights for end-users.
 
+```
 DBT Best Practices:
 	* Incremental Loading 
 	* Testing & Validations using DBT tests
 	* Window functions (PERCENT_RANK(), COUNT() OVER())
 	* Aggregate functions (SUM(), AVG())
 	* Conditional logic (CASE WHEN)
+```
 	
 The models are categorized under two main themes: 
 
